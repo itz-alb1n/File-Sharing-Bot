@@ -89,7 +89,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("🏷️ Channel", url = "https://telegram.dog/Mj_Linkz/1318"),
-                    InlineKeyboardButton("♻️ Group", callback_data = "https://telegram.dog/MovieJunctionGrp")
+                    InlineKeyboardButton("♻️ Group", url = "https://telegram.dog/MovieJunctionGrp")
                 ],
                 [
                     InlineKeyboardButton("❓ About Me", callback_data = "about"),
