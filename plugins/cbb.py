@@ -16,7 +16,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("⛳ Group", url = "https://t.me/MovieJunctionGrp"),
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("🏠 Home", callback_data = "start")
                     ]
                 ]
             )
