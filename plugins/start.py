@@ -88,7 +88,11 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("😊 About Me", callback_data = "about"),
+                    InlineKeyboardButton("🏷️ Channel", url = "https://telegram.dog/Mj_Series"),
+                    InlineKeyboardButton("♻️ Group", url = "https://telegram.dog/MovieJunctionGrp")
+                ],
+                [
+                    InlineKeyboardButton("❓ About Me", callback_data = "about"),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
             ]
@@ -123,7 +127,7 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "Join Channel",
+                "🤖 Join Our Backup Group",
                 url = client.invitelink)
         ]
     ]
