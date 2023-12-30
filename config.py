@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>➡️ Please Join  Main Channel 👉 @Mj_Series and Click Try Again Button Below to get The Series You Requested.!\n\n➡️ നമ്മുടെ Main Channel-ൽ ജോയിൻ ചെയ്താൽ മാത്രമേ ഈ ബോട്ടിൽ നിന്ന് Series കിട്ടു,അത് കൊണ്ട് മൂവി കിട്ടാൻ <u>👉 @Mj_Series Channel-ൽ ജോയിൻ</u> ചെയ്ത ശേഷം താഴെ ഉള്ള <u>Try Again ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുക.</u> 🔐</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>➡️ Please Join  Main Channel 👉 @Mj_Linkz and Click Try Again Button Below to get The Files You Requested.!\n\n➡️ നമ്മുടെ Main Channel-ൽ ജോയിൻ ചെയ്താൽ മാത്രമേ ഈ ബോട്ടിൽ നിന്ന് Files കിട്ടു,അത് കൊണ്ട് മൂവി കിട്ടാൻ <u>👉 @Mj_Linkz Channel-ൽ ജോയിൻ</u> ചെയ്ത ശേഷം താഴെ ഉള്ള <u>Try Again ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുക.</u> 🔐</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
