@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>➡️ Please Join Our Backup Group 👉 @MovieJunctionGrp4 and Click Try Again Button Below to get The Movie You Requested.!\n\n➡️ നമ്മുടെ Backup Group-ൽ ജോയിൻ ചെയ്താൽ മാത്രമേ ഈ ബോട്ടിൽ നിന്ന് മൂവി കിട്ടു,അത് കൊണ്ട് മൂവി കിട്ടാൻ 👉 @MovieJunctionGrp4 Group-ൽ ജോയിൻ ചെയ്ത ശേഷം താഴെ ഉള്ള Try Again ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുക. 🔐</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>➡️ Please Join Our Backup Group 👉 @MovieJunctionGrp and Click Try Again Button Below to get The Movie You Requested.!\n\n➡️ നമ്മുടെ Backup Group-ൽ ജോയിൻ ചെയ്താൽ മാത്രമേ ഈ ബോട്ടിൽ നിന്ന് മൂവി കിട്ടു,അത് കൊണ്ട് മൂവി കിട്ടാൻ 👉 @MovieJunctionGrp Group-ൽ ജോയിൻ ചെയ്ത ശേഷം താഴെ ഉള്ള Try Again ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുക. 🔐</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "{previouscaption}\n\n<b><i>♻️ JOIN : @MoviejunctionGrp 🔥</i></b>")
